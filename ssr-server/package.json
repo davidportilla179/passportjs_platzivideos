@@ -1,0 +1,31 @@
+{
+  "name": "ssr-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set DEBUG=app:*&& nodemon index",
+    "start": "set NODE_ENV=production && node index"
+  },
+  "keywords": [],
+  "author": "David Portilla <davidportilla179@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^9.1.1",
+    "axios": "^0.21.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.20",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth": "^2.0.0",
+    "passport-http": "^0.3.0",
+    "passport-oauth": "^1.0.0",
+    "passport-twitter": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
